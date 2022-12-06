@@ -530,6 +530,6 @@ function RotatedRegion3:Cast(ignore, maxParts)
 	ignore = type(ignore) == "table" and ignore or {ignore}
 	return self:FindPartsInRegion3WithIgnoreList(ignore, maxParts)
 end
-
+func = function() end
 return RotatedRegion3
 

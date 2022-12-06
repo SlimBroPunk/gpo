@@ -532,3 +532,4 @@ function RotatedRegion3:Cast(ignore, maxParts)
 end
 
 return RotatedRegion3
+

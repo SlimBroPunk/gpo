@@ -1,5 +1,3 @@
-
-
 local GJK = (function()
 	local MAX_TRIES = 20
 	local ZERO3 = Vector3.new(0, 0, 0)
@@ -533,3 +531,4 @@ function RotatedRegion3:Cast(ignore, maxParts)
 	return self:FindPartsInRegion3WithIgnoreList(ignore, maxParts)
 end
 
+return RotatedRegion3

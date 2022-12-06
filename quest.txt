@@ -1,1 +1,535 @@
-return { ["Waby"] = {["lvlReq"] = 70,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Alright, then good luck. <AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[If you can take care of some of those pirates on the other side of the island ill reward you!!]],["result"] = function() end,["go"] = [[Yes i will]],},["QuestInfo"] = {["Rewards"] = {["EXP"] = 450,["Peli"] = 250,},["Type"] = [[Defeat]],["MobName"] = [[Saw Shark Pirate]],["Ammount"] = 10,},["QuestName"] = [[Help Waby]],["NPC"] = [[Waby]],["Talk1"] = {["stop"] = [[NOO]],["endtext"] = [[false]],["Text"] = [[The Saw Shark pirates have taken over this island.]],["stoptext"] = [[Bye]],["go"] = [[Yes]],},["QuestDesc"] = [[Take down Arlong Pirates]],}, ["Helen"] = {["Talk2"] = {["stop"] = [[Bye]],["endtext"] = [[true]],["Text"] = [[Ok thanks!!1<AnimateYield=.45>]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestInfo"] = {["Type"] = [[Deliver]],["Rewards"] = {["Peli"] = 50,["EXP"] = 150,},["Ammount"] = 1,["MobName"] = [[Carrot Bucket]],["EndNPC"] = [[Ego]],},["TalkAmmount"] = 2,["QuestName"] = [[Deliver to Ego]],["NPC"] = [[Helen]],["Save"] = [[true]],["Talk1"] = {["stop"] = [[Bye]],["stoptext"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hey can you deliver these carrots to my friend at Zou?]],["result"] = function() end,["go"] = [[...]],},["QuestDesc"] = [[Deliver carrot]],}, ["Tina"] = {["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Ok thanks]],["stoptext"] = [[Aw, thatâ€™s too bad. I had hoped that you were stronger...]],["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 8,["EXP"] = 15,},["Type"] = [[Find]],["MobName"] = [[Clay pot]],["Ammount"] = 1,},["TalkAmmount"] = 3,["Talk2"] = {["stop"] = [[NOPE]],["stoptext"] = [[wow...]],["endtext"] = [[false]],["Text"] = [[Can you help me find my pot, it should be in one of these buildings on this island...]],["result"] = function() end,["go"] = [[Alright!]],},["QuestName"] = [[Find Tina's Clay pot]],["NPC"] = [[Tina]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hello, i lost my pot while moving around on this island...]],["stoptext"] = [[*wow...]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Higa"] = {["lvlReq"] = 240,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[alright watch out, she can also use the skills that come with the weapon!<AnimateYield=1>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[noooooooooooo]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[You think your up for the job? To take her down?]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 600,["EXP"] = 1400,},["Type"] = [[Defeat]],["MobName"] = [[Marine Fort Kiribachi User]],["Ammount"] = 1,},["QuestName"] = [[Help Higa]],["NPC"] = [[Higa]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Man eversense the marines captured the saw shark, they been mass producing his weapon. That girl up front has that weapon and shes too strong for me to handle...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Dabo"] = {["lvlReq"] = 260,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[ok good luck!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[Wanna go exterminate them for me?]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 600,["EXP"] = 3000,},["Type"] = [[Defeat]],["MobName"] = [[Mini Bunny]],["Ammount"] = 10,},["QuestName"] = [[Help Dabo]],["NPC"] = [[Dabo]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[OMG ive been trying to defeat Elo the bunny but his mini bunnys are so annoying...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Viva"] = {["lvlReq"] = 140,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Can you go take care of them??]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 500,["EXP"] = 700,},["Type"] = [[Defeat]],["MobName"] = [[Malcolm]],["Ammount"] = 1,},["QuestName"] = [[Help viva]],["NPC"] = [[Viva]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Malcolm and his gang have over taken the island above...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat viva]],}, ["Jenny"] = {["lvlReq"] = 210,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Ok good luck and stay on guard!<AnimateYield=1>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[Would to like to challenge him? If you manage to win and prove your self worthy i can award you for your accomplishment.]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 600,["EXP"] = 1500,},["Type"] = [[Defeat]],["MobName"] = [[Ryu]],["Ammount"] = 1,},["QuestName"] = [[Help jenny]],["NPC"] = [[Jenny]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Ryu is one of the best, if not the best swordsman on fishman island...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Samira"] = {["lvlReq"] = 375,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Bye]],["endtext"] = [[true]],["Text"] = [[Alright be careful, the pharaoh has the <AnimateStyle=Wiggle><Color=Orange>Suna-Suna<Color=/><AnimateStyle=/> devil fruit which allows him to use the powers of sand!]],["stoptext"] = [[Bye]],["go"] = [[Yes for sure!]],},["Talk2"] = {["stop"] = [[Bye]],["stoptext"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[We fought the pharaoh many times in the past but he prevailed agaisnt us. If he does get reawakened somehow can you subdue him?]],["result"] = function() end,["go"] = [[Yes!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 2000,["EXP"] = 4000,},["Type"] = [[Defeat]],["MobName"] = [[Pharaoh Akshan]],["Ammount"] = 1,},["QuestName"] = [[Help Samira]],["NPC"] = [[Samira]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[I've heard some rumors of people attempting to reawaken the pharaoh. Altough many citizens want him back, us marines <AnimateStyle=Wiggle><Color=Red>CANNOT<Color=/><AnimateStyle=/> tolerate him.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Coffee Lover Citizen"] = {["lvlReq"] = 15,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Thanks for the coffee now i can slurp away!!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Do you purphase have any extra coffee for me?]],["result"] = function() end,["go"] = [[Yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 145,["EXP"] = 200,},["Type"] = [[Defeat]],["MobName"] = [[Lucid]],["Ammount"] = 1,},["dontHave"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[<Color=Red>Is this a joke??? Im not playing games!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestName"] = [[Take down Lucid]],["NPC"] = [[Disgruntled Civilian]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Dude i heard that the coffe at bean cafe is the best but its too far form this city, i cant walk that much!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[Defeat Lucid and his lads]],}, ["Zaki"] = {["lvlReq"] = 325,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[hehe light this city up!!]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Do you want to commit a evil deed so i can see this city in choas?]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 500,["EXP"] = 700,},["Type"] = [[Defeat]],["MobName"] = [[Civilian]],["Ammount"] = 10,},["QuestName"] = [[Help Zaki]],["NPC"] = [[Zaki]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[This city is too peacefull, the guards are strong and the civlians fight back...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat guard]],}, ["Tyson"] = {["Talk3"] = {["stop"] = [[..]],["endtext"] = [[true]],["Text"] = [[aigt thx bro]],["stoptext"] = [[bro......]],["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 50,["EXP"] = 45,},["Type"] = [[Find]],["MobName"] = [[Cat]],["Ammount"] = 1,},["TalkAmmount"] = 3,["Talk2"] = {["stop"] = [[NOPE]],["stoptext"] = [[wow...]],["endtext"] = [[false]],["Text"] = [[can u finds my cat?]],["result"] = function() end,["go"] = [[yse!]],},["QuestName"] = [[Find Tysoncat]],["NPC"] = [[Tyson]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[yo bro i lost my cat]],["stoptext"] = [[*wow...]],["go"] = [[...]],},["QuestDesc"] = [[d]],}, ["Zerus"] = {["lvlReq"] = 325,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Can you take care of some mini crabs for me???]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 500,["EXP"] = 700,},["Type"] = [[Defeat]],["MobName"] = [[Crab Minion]],["Ammount"] = 5,},["QuestName"] = [[Help Zerus]],["NPC"] = [[Zerus]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Those mini crabs are guarding the cave down this path that im trying to get into, my friend is stuck in there with those crabs!!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat guard]],}, ["Chef Rice"] = {["lvlReq"] = 40,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck bye!!.<AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[Bye]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[yes plz if u can help i reward u!!.<AnimateYield=.45>]],["result"] = function() end,["go"] = [[yes!!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 150,["EXP"] = 350,},["Type"] = [[Defeat]],["MobName"] = [[Krieg Pirate]],["Ammount"] = 8,},["QuestName"] = [[Help Rice]],["NPC"] = [[Chef Rice]],["Talk1"] = {["stop"] = [[Ignore]],["endtext"] = [[false]],["Text"] = [[um hi my resturant under attack by pirate!!!!]],["stoptext"] = [[Bye]],["go"] = [[omg bro need help??]],},["QuestDesc"] = [[Take down 7 Krieg Pirates]],}, ["Daph"] = {["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[<AnimateStyle=Wiggle><Color=Green>Thank you so much<Color=/><AnimateYield=.25><AnimateStyle=/> kind traveler! I definitely wonâ€™t forget this favor!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 50,["EXP"] = 60,},["Type"] = [[Defeat]],["MobName"] = [[Bandit]],["Ammount"] = 5,},["TalkAmmount"] = 3,["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[Aw, thatâ€™s too bad. I had hoped that you were stronger...]],["endtext"] = [[false]],["Text"] = [[Youâ€™re a <Color=Green>new<Color=/> traveler right? Well, Iâ€™ve been looking for someone <Color=Red>strong<Color=/>. Those bandits up this hill have been <Color=Red>wreaking havoc<Color=/> all over the place! Please, you have to <Color=Red>stop<Color=/> them!]],["result"] = function() end,["go"] = [[Alright!]],},["QuestName"] = [[Help Raphtalia]],["NPC"] = [[Daph]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hey, Iâ€™m <Color=255,201,201>Daph<Color=/>, and welcome to my island!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Max"] = {["lvlReq"] = 65,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[watch out for the chest pound!!]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[can u go slay gorila king for reward??]],["result"] = function() end,["go"] = [[yes i go beat monkey]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 400,["EXP"] = 800,},["Type"] = [[Defeat]],["MobName"] = [[Gorilla King]],["Ammount"] = 1,},["QuestName"] = [[Help max]],["NPC"] = [[Max]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[The gorilla king and his monkeys have taken over..]],["stoptext"] = [[Bye]],["go"] = [[what can i do]],},["QuestDesc"] = [[beat monkey king]],}, ["Yourg"] = {["lvlReq"] = 180,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[thanks bro]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[Aw, thatâ€™s too bad. I had hoped that you were stronger...]],["endtext"] = [[false]],["Text"] = [[Do you mind doing me a favor and take care of the guards so i can defeat gravito?]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 900,["EXP"] = 1200,},["Type"] = [[Defeat]],["MobName"] = [[Gravito's Guards]],["Ammount"] = 3,},["QuestName"] = [[Help Yourg]],["NPC"] = [[Yourg]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Gravito's guards keep guarding him i cant even touch that dude, his gravity moves always pushes me back and i get killed by the guards...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[kill]],}, ["Raze"] = {["lvlReq"] = 125,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Can you go defeat some Sky Guardians, ill give you rewards in exchange????]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 400,["EXP"] = 600,},["Type"] = [[Defeat]],["MobName"] = [[Sky Guardian]],["Ammount"] = 10,},["QuestName"] = [[Help raze]],["NPC"] = [[Raze]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[The Sky Guardians up ahead have been defending Burno, which has been causing harm to the local area...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat guard]],}, ["Janny"] = {["lvlReq"] = 230,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Alright, good luck hes very strong because of his fishman karate and trident!<AnimateYield=1>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[Will you be willing to help us take him down, i personally will reward you nicely!]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 1000,["EXP"] = 3000,},["Type"] = [[Defeat]],["MobName"] = [[Neptune]],["Ammount"] = 1,},["QuestName"] = [[Help janny]],["NPC"] = [[Janny]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Neptune has been ruling fishman island for decades, hes refused to step down form his throne and we cant do much about it because of his power.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Ray"] = {["lvlReq"] = 80,["TalkAmmount"] = 4,["Save"] = [[true]],["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Heh heh, good. But I'm also gonna need ye to defeat a few yetis for me. <AnimateYield=.45>]],["result"] = function() end,["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["endtext"] = [[false]],["Text"] = [[Tell you what, why don't ye fork over 25,000 peli real quick? Just as a sign of good will, ya know. ]],["stoptext"] = [[ok bye]],["go"] = [[Yes sir i have ur money]],},["QuestInfo"] = {["Rewards"] = {["BusoMastery"] = 1,},["Type"] = [[Defeat]],["MobName"] = [[Yeti]],["Ammount"] = 100,},["Talk4"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Ok go get movin, if you die good luck getting back. <Color=Red>If you QUIT this quest you will have to pay me aigan!!<AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk5"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[<Color=Red>BRO U DONT HAVE THE MONEY OMG!! BYE BYE!! <AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["QuestName"] = [[Road to Armament]],["NPC"] = [[Ray]],["Talk1"] = {["stop"] = [[Notthing]],["endtext"] = [[false]],["Text"] = [[Ahoy, what can I do ye for?]],["stoptext"] = [[Bye]],["go"] = [[Teach me Armament]],},["QuestDesc"] = [[Take down 100 Yetis]],}, ["Jeff"] = {["lvlReq"] = 155,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[The golden city and the rest of the sky lands are controled by the Thunder God, if u can defeat him ill reward you!!]],["result"] = function() end,["go"] = [[yes i go beat the god]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 900,["EXP"] = 2000,},["Type"] = [[Defeat]],["MobName"] = [[Thunder God]],["Ammount"] = 1,},["QuestName"] = [[Help jeff]],["NPC"] = [[Jeff]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[If u go ahead u can see the golden city underground...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat enel]],}, ["Aria"] = {["lvlReq"] = 50,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Alright, then good luck to us both. <AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Good, your task is simple: subdue infamous pirate <AnimateStyle=Wiggle><Color=Red>Star Clown<Color=/><AnimateStyle=/> for me while I pillage his treasure stash and I'll reward you with a portion of what I find. Sound good?]],["result"] = function() end,["go"] = [[Yes]],},["QuestInfo"] = {["Rewards"] = {["EXP"] = 1200,["Peli"] = 500,},["Type"] = [[Defeat]],["MobName"] = [[Star Clown]],["Ammount"] = 1,},["QuestName"] = [[Help Nami]],["NPC"] = [[Aria]],["Talk1"] = {["stop"] = [[NOO]],["endtext"] = [[false]],["Text"] = [[Hey wait! Want in on a <AnimateStyle=Rainbow><Color=Green>sweet deal<Color=/>?]],["stoptext"] = [[Bye]],["go"] = [[Yes]],},["QuestDesc"] = [[Defeat buggy the clown]],}, ["Zen"] = {["lvlReq"] = 30,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Bye]],["endtext"] = [[true]],["Text"] = [[ok go fast and come fast1!!1]],["stoptext"] = [[ok bye]],["go"] = [[yes sir]],},["Talk2"] = {["stop"] = [[Bye]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[ok see those zou people over there??? i need u go take down 7 of them]],["result"] = function() end,["go"] = [[yes sir]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 150,["EXP"] = 250,},["Type"] = [[Defeat]],["MobName"] = [[Zou Inhabitant]],["Ammount"] = 7,},["QuestName"] = [[Help Zen]],["NPC"] = [[Zen]],["Talk1"] = {["stop"] = [[Ignore]],["endtext"] = [[false]],["Text"] = [[hey bro can u go defeat me some people, they r mad]],["stoptext"] = [[Bye]],["go"] = [[yeye]],},["QuestDesc"] = [[Take down 7 Zou Inhabitants]],}, ["Cargo Civilian"] = {["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Ok good luck, godspeed!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestInfo"] = {["Type"] = [[Deliver]],["block"] = [[true]],["Rewards"] = {["Peli"] = 500,["EXP"] = 800,},["Ammount"] = 1,["MobName"] = [[Cargo]],["EndNPC"] = [[Cargo Receiver]],},["TalkAmmount"] = 3,["Talk2"] = {["stop"] = [[no im busy]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[I can split the pay with you if you help me deliver it :) What do you say?]],["result"] = function() end,["go"] = [[Yes i will help you!]],},["NPC"] = [[Cargo Civilian]],["QuestName"] = [[Deliver Civilian Cargo]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hey there i have cargo that needs to be delivered so that i get paid...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[Deliver cargo]],}, ["City Criminal"] = {["lvlReq"] = 325,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[hehe good looks...]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Do you think you can distract and defeat the guards while i do my dity work?]],["result"] = function() end,["go"] = [[YES]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 800,["EXP"] = 1000,},["Type"] = [[Defeat]],["MobName"] = [[Kingdom Guards]],["Ammount"] = 6,},["QuestName"] = [[Help crim]],["NPC"] = [[City Criminal]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Everytime i try murder someone the guards just keep coming after me!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat guard]],}, ["RVK"] = {["TalkAmmount"] = 3,["Save"] = [[true]],["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[bye bestie]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["result"] = function() end,["stop"] = [[no im busy]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[The desert kingdom is right ahead, can you go deliver this flag to my friend, Snaytona at the desert kingdom??]],["excu"] = function() end,["go"] = [[yes!!]],},["QuestInfo"] = {["Type"] = [[Deliver]],["Rewards"] = {["Peli"] = 500,["EXP"] = 1000,},["Ammount"] = 1,["MobName"] = [[Rainbow Flag]],["EndNPC"] = [[Snaytona]],},["NPC"] = [[RVK]],["QuestName"] = [[Deliver to Snaytona]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Welcome to the second sea, this is the first island...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[Deliver flag]],}, ["Mythra"] = {["lvlReq"] = 285,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[ok good luck!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[Can you go defeat him for me instead its easter time :)]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 2000,["EXP"] = 7000,},["Type"] = [[Defeat]],["MobName"] = [[Elo The Bunny]],["Ammount"] = 1,},["QuestName"] = [[Help Mythra]],["NPC"] = [[Mythra]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Elo the bunny is so big and chunky my attacks tickles him...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Vi"] = {["lvlReq"] = 80,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Alright, then good luck. <AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[If you can defeat Saw Shark i will give you rewards : )]],["result"] = function() end,["go"] = [[Yes i will]],},["QuestInfo"] = {["Rewards"] = {["EXP"] = 1500,["Peli"] = 600,},["Type"] = [[Defeat]],["MobName"] = [[Saw Shark]],["Ammount"] = 1,},["QuestName"] = [[Help Vi]],["NPC"] = [[Vi]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Saw Shark is the boss of the pirates on this island, they been causing lots of problems.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[Take Arlong]],}, ["Anty"] = {["lvlReq"] = 325,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[civlian go brrrrrrrrrrrrrrrr???]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 500,["EXP"] = 700,},["Type"] = [[Defeat]],["MobName"] = [[Civilian]],["Ammount"] = 10,},["QuestName"] = [[Help Anty]],["NPC"] = [[Anty]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[i hate this place...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat guard]],}, ["Zhen's Crewmate"] = {["lvlReq"] = 265,["TalkAmmount"] = 4,["Talk3"] = {["stop"] = [[Bye]],["stoptext"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[But im too weak right now, our entire crew has been wiped out and im powerless. Can i ask you to get the <Color=Red>Fire Essence<Color=/> and awaken our captain by defeating <Color=Red>Admiral Zeke<Color=/>?]],["result"] = function() end,["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Ive tried to enter the fort and get the fire essence form Admiral Zeke, but i cant breach the guards. I need the fire essence to awaken <Color=Red>Captain Zhen<Color=/> so that he can finish what he started!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 400,["EXP"] = 1000,},["Type"] = [[Awaken]],["MobName"] = [[Captain Zhen]],["Ammount"] = 1,},["Talk4"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[alright keep your GUARD UP!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestName"] = [[Help Zhen's Crewmate]],["NPC"] = [[Zhen's Crewmate]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Shhhhhh, ive been hiding in this building for a long time to escape detection of the marines...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Abdul"] = {["lvlReq"] = 325,["TalkAmmount"] = 4,["Talk3"] = {["stop"] = [[Bye]],["stoptext"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[He said something about <AnimateStyle=Wiggle><Color=Yellow>artifacts<Color=/><AnimteStyle=/> being needed but i don't have much information on that, can you find this cave and try to <AnimateStyle=Rainbow>reawaken<AnimteStyle=/> our pharaoh?]],["result"] = function() end,["go"] = [[Yes for sure!]],},["Talk2"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[I've yearn to see the day of his <AnimateStyle=Rainbow>reawakening<AnimateStyle=/>. A old man in the city told me that theres a <AnimateStyle=Rainbow>hidden cave<AnimateStyle=/> which has the power to <AnimateStyle=Rainbow>reawaken<AnimteStyle=/> our pharaoh.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 900,["EXP"] = 2000,},["Type"] = [[Awaken]],["MobName"] = [[Pharaoh Akshan]],["Ammount"] = 1,},["Talk4"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Alright have a safe journey]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestName"] = [[Help Abdul]],["NPC"] = [[Abdul]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[<AnimateStyle=Rainbow>Our pharaoh has been in his deep slumber after using all of his power to conquer this land...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Tyrone"] = {["lvlReq"] = 15,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Thank you for helping<AnimateYield=.45>, let me give you one tip<AnimateYield=.45>, defeating <Color=Red>Lucid<Color=/> is impossible with out the help of your friends!<AnimateYield=.45>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[But up this ladder is where <Color=Red>Lucid<Color=/><AnimateYield=.45>, the ace bandit resides.<AnimateYield=.45> Lucid has been casuing this island alot of trouble, can you go defeat him for us?]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 145,["EXP"] = 200,},["Type"] = [[Defeat]],["MobName"] = [[Lucid]],["Ammount"] = 1,},["QuestName"] = [[Take down Lucid]],["NPC"] = [[Tyrone]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[This island may seen normal and <Color=Green>peaceful <Color=/>form the outside...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[Defeat Lucid and his lads]],}, ["Vego"] = {["lvlReq"] = 105,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Will ya go clean the area up for me?]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 200,["EXP"] = 500,},["Type"] = [[Defeat]],["MobName"] = [[Sky District Bandit]],["Ammount"] = 5,},["QuestName"] = [[Help vego]],["NPC"] = [[Vego]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[mgod The bandits have taken over this entire district, barly anyone resides here anymore...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat musk]],}, ["Frutose"] = {["lvlReq"] = 265,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Alright dont forget, he has the power of the <Color=Red>Mera<Color=/> fruit which means you will need haki to damage him<AnimateYield=1>!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[Would you want to attempt to take him down?]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 900,["EXP"] = 2500,},["Type"] = [[Defeat]],["MobName"] = [[Flame Admiral Zeke]],["Ammount"] = 1,},["QuestName"] = [[Help Frutose]],["NPC"] = [[Frutose]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[This floor is where the <Color=Red>Flame Admiral Zeke<Color=/> resides. The flame admiral has the power of the <Color=Red>Mera<Color=/> fruit which makes him extremely powerful.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Admiral Frosty"] = {["lvlReq"] = 265,["TalkAmmount"] = 4,["Talk3"] = {["stop"] = [[No not my problem!]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[I'm afraid one day he will wake up and cause <Color=Red>destruction<Color=/> once again. I don't care if you're a marine or pirate but can you promise to subdue him when he reawakens?]],["result"] = function() end,["go"] = [[Yes i will try my best!]],},["Talk2"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[During the previous war with the pirates i was able to freeze <Color=Red>Captain Zhen<Color=/>. He possesses power that can destroy the world, however now he's in eternal slumber...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 1200,["EXP"] = 6000,},["Type"] = [[Defeat]],["MobName"] = [[Captain Zhen]],["Ammount"] = 1,},["Talk4"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Alright don't forget, he has the power of the <Color=ZBlue>Gura<Color=/> fruit which has immeasurable power.<AnimateYield=1> He can easily obliterate an entire army, keep your guard up!<AnimateYield=1> ]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestName"] = [[Help Admiral Frosty]],["NPC"] = [[Admiral Frosty]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hello there my name is Frosty, I wield the power of the <TextColor3=170,255,255>Hie<Color=/> fruit which allows me to use the abilities of ice.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Gonny"] = {["lvlReq"] = 55,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck and watch out for the Gorilla King]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[If u can go defeat some monkeys for me ill give reward.]],["result"] = function() end,["go"] = [[yes i go beat monkey]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 200,["EXP"] = 400,},["Type"] = [[Defeat]],["MobName"] = [[Monkey]],["Ammount"] = 10,},["QuestName"] = [[Help gonny]],["NPC"] = [[Gonny]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Outside of this waterfall, monkeys have taken over this island...]],["stoptext"] = [[Bye]],["go"] = [[what can i do]],},["QuestDesc"] = [[beat monkey]],}, ["Musk"] = {["lvlReq"] = 135,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Will you be willing to take him down for me?]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 350,["EXP"] = 800,},["Type"] = [[Defeat]],["MobName"] = [[Head Guardian]],["Ammount"] = 1,},["QuestName"] = [[Help musk]],["NPC"] = [[Musk]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[The head guardian is just too strong for me, ive been trying to fight him for a while but havent made any progress...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat musk]],}, ["Vak"] = {["lvlReq"] = 325,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[sus....]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Would be SUS if they all just disappeared >:)]],["result"] = function() end,["go"] = [[YES VERY SUS]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 500,["EXP"] = 700,},["Type"] = [[Defeat]],["MobName"] = [[Civilian]],["Ammount"] = 10,},["QuestName"] = [[Help Vak]],["NPC"] = [[Vak]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Look at all those cilivans walking around!!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat guard]],}, ["Pichu"] = {["lvlReq"] = 230,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[dont get bullied by those bazookas!!!!!!!!!!!!!!!<AnimateYield=1>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[u wana go and punch their heads for me?]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 400,["EXP"] = 900,},["Type"] = [[Defeat]],["MobName"] = [[Marine Fort Gunner]],["Ammount"] = 4,},["QuestName"] = [[Help Pichu]],["NPC"] = [[Pichu]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Omg the people with those big bazookas keep spoting me, ive been hiding behind these bookshelves to avoid detection...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Zanny"] = {["lvlReq"] = 190,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[thanks bro]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[Aw, thatâ€™s too bad. I had hoped that you were stronger...]],["endtext"] = [[false]],["Text"] = [[Do you think your strong enough to defeat him for me instead?]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 1000,["EXP"] = 2400,},["Type"] = [[Defeat]],["MobName"] = [[Gravito]],["Ammount"] = 1,},["QuestName"] = [[Help Zanny]],["NPC"] = [[Zanny]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Gravito keeps overpowering me, i cant do anything agianst the meteors he summons...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[kill]],}, ["Haku"] = {["TalkAmmount"] = 6,["Talk6"] = {["stop"] = [[Iâ€™m sorry, I canâ€™t.]],["endtext"] = [[true]],["Text"] = [[Good luck and dont get hurt!]],["stoptext"] = [[Wow, really? Thatâ€™s too bad...]],["go"] = [[Alright!]],},["Save"] = [[true]],["Talk3"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Due to the <Color=Red>unbearable heat<Color=/> in Sandora<AnimateYield=.45>, the people living there are <Color=Red>dying<Color=/> from thirst.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["Talk2"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[If you donâ€™t mind<AnimateYield=.45>, I have a request for you.]],["stoptext"] = [[Bye]],["go"] = [[...]],},["Talk4"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Could you go there and deliver this bucket of <Color=Blue>water<Color=/> to Devontai? It would be greatly appreciated!]],["stoptext"] = [[Bye]],["go"] = [[Alright!]],},["QuestInfo"] = {["Type"] = [[Deliver]],["Rewards"] = {["Peli"] = 25,["EXP"] = 100,},["Ammount"] = 1,["MobName"] = [[Water Bucket]],["EndNPC"] = [[Devontai]],},["GiveItems"] = {["1"] = [[Sandora Eternal Pose]],},["Talk5"] = {["stop"] = [[Iâ€™m sorry, I canâ€™t.]],["stoptext"] = [[Wow, really? Thatâ€™s too bad...]],["endtext"] = [[false]],["Text"] = [[To aid you on this mission, i will give you a <Color=Blue>Eternal pose<Color=/>, which will show you the direction of Sandora incase you get lost.]],["result"] = function() end,["go"] = [[Alright!]],},["NPC"] = [[Haku]],["QuestName"] = [[Deliver water to Devontai]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hey, Iâ€™m <Color=Yellow>Haku<Color=/> and, I love traveling!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Zhen"] = {["lvlReq"] = 110,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Can you help me take down some guards so i can get in and start eating??]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 200,["EXP"] = 700,},["Type"] = [[Defeat]],["MobName"] = [[Castle Guard]],["Ammount"] = 5,},["QuestName"] = [[Help zhen]],["NPC"] = [[Zhen]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[I've been trying to get into the castle but i keep getting stopped by the guards...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat zhen]],}, ["Sarah"] = {["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Thank you so much! ;)]],["stoptext"] = [[Aw, thatâ€™s too bad. I had hoped that you were stronger...]],["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 25,["EXP"] = 5,},["Type"] = [[Find]],["MobName"] = [[Necklace]],["Ammount"] = 1,},["TalkAmmount"] = 3,["Talk2"] = {["stop"] = [[Sorry your on your own!]],["stoptext"] = [[*sniff* *sniff* : (]],["endtext"] = [[false]],["Text"] = [[Find it for me, I beg of you! I'll give you a reward if you bring it back.]],["result"] = function() end,["go"] = [[Alright!]],},["QuestName"] = [[Find Sarah's necklace]],["NPC"] = [[Sarah]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[<AnimateStyle=Wiggle><Color=125,255,217>*sniffle* *sniffle*<Color=/><AnimateYield=.25><AnimateStyle=/>  Please help me! I lost my necklace while I was running away from those bandits.]],["stoptext"] = [[*sniff* *sniff* : (]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Rae"] = {["lvlReq"] = 140,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Can you go take care of him so i can get up the vine tree?]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 600,["EXP"] = 1000,},["Type"] = [[Defeat]],["MobName"] = [[Bruno]],["Ammount"] = 1,},["QuestName"] = [[Help rae]],["NPC"] = [[Rae]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Bruno has been here forever, hes always guarding the vine tree and i cant get up there to learn how to glide...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat burno]],}, ["Rave"] = {["Talk2"] = {["stop"] = [[Bye]],["endtext"] = [[true]],["Text"] = [[Ok my friend is at shells town, located in the direction im facing. Good luck!<AnimateYield=.45>]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestInfo"] = {["Type"] = [[Deliver]],["Rewards"] = {["Peli"] = 27,["EXP"] = 20,},["Ammount"] = 1,["MobName"] = [[Rave's Letter]],["EndNPC"] = [[Dave]],},["TalkAmmount"] = 2,["QuestName"] = [[Deliver letter to Dave]],["NPC"] = [[Rave]],["Save"] = [[true]],["Talk1"] = {["stop"] = [[Bye]],["stoptext"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hey can you deliver this letter to my friend?]],["result"] = function() end,["go"] = [[...]],},["QuestDesc"] = [[Deliver letter]],}, ["Bibby"] = {["lvlReq"] = 135,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[They took cover with their boss on the island up the bridge, can you go take care of the undermen?]],["result"] = function() end,["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 400,["EXP"] = 750,},["Type"] = [[Defeat]],["MobName"] = [[Malcolm's Undermen]],["Ammount"] = 6,},["QuestName"] = [[Help bibby]],["NPC"] = [[Bibby]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Malcolm's Undermen have been casuing trobule lately!!]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[beat bibby]],}, ["Ronny"] = {["lvlReq"] = 5,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow...]],["endtext"] = [[false]],["Text"] = [[Can you go defeat the bandit boss? He might drop his eyepatch!]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 75,["EXP"] = 80,},["Type"] = [[Defeat]],["MobName"] = [[Bandit Boss]],["Ammount"] = 1,},["QuestName"] = [[Help Ronny]],["NPC"] = [[Ronny]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[The bandit boss has been ordering his people to attack us...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat bandit boss]],}, ["Fhan"] = {["lvlReq"] = 375,["TalkAmmount"] = 4,["Talk3"] = {["stop"] = [[no]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[CAN U GO KILL?]],["result"] = function() end,["go"] = [[yes i go]],},["Talk2"] = {["stop"] = [[no]],["endtext"] = [[false]],["Text"] = [[PERFECT, DUDE I BEEN STUCK HERE FOR DAYS THE CRABS KEEP DANCING ON ME. THE KING CRAB IS SO CHUNKY I CANT DO ANYTHING TO IT!!!]],["stoptext"] = [[ok bye]],["go"] = [[yes i go]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 3000,["EXP"] = 4000,},["Type"] = [[Defeat]],["MobName"] = [[Crab King Cho]],["Ammount"] = 1,},["Talk4"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[ok good luck]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["QuestName"] = [[Help Fhan]],["NPC"] = [[Fhan]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[YOOO ARE U THE GUY THAT ZERUS SAID IS COMING??]],["stoptext"] = [[Bye]],["go"] = [[yes....]],},["QuestDesc"] = [[beat guard]],}, ["Becky"] = {["lvlReq"] = 190,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Alright dont let your guard down!<AnimateYield=1>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[Want to test your self agaisnt them?]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 500,["EXP"] = 1200,},["Type"] = [[Defeat]],["MobName"] = [[Fishman Karate User]],["Ammount"] = 5,},["QuestName"] = [[Help becky]],["NPC"] = [[Becky]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Fishman island is home to many strong users of fishman karate...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Robert"] = {["lvlReq"] = 20,["TalkAmmount"] = 4,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Listen, if you promise to inflict pain upon those fiends and reclaim my property, I will grant you a portion of my fortunes.<AnimateYield=.45>]],["result"] = function() end,["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[The marines... those suit wearing, money-mongering devils commandeered my property.<AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[...]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 100,["EXP"] = 175,},["Type"] = [[Defeat]],["MobName"] = [[Corrupt Marine]],["Ammount"] = 8,},["Talk4"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Don't stop till they drop.<AnimateYield=.45>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestName"] = [[Help Robert]],["NPC"] = [[Robert]],["Talk1"] = {["stop"] = [[Ignore]],["endtext"] = [[false]],["Text"] = [[<Color=Red>Huffs Puffs Urrrgghhhhhh<Color=/><AnimateYield=.45>]],["stoptext"] = [[Bye]],["go"] = [[You alright?]],},["QuestDesc"] = [[Take down 8 corrupt marines]],}, ["Kevin"] = {["lvlReq"] = 25,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Alright be careful, these bandits are fast!<AnimateYield=.45>]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[Bye]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Yes help would be much appreciated<AnimateYield=.45>, if you can go defeat some bandits i'll reward you.<AnimateYield=.45>]],["result"] = function() end,["go"] = [[...]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 150,["EXP"] = 200,},["Type"] = [[Defeat]],["MobName"] = [[Shell's Bandit]],["Ammount"] = 8,},["QuestName"] = [[Help Kevin]],["NPC"] = [[Kevin]],["Talk1"] = {["stop"] = [[..]],["endtext"] = [[false]],["Text"] = [[Corrupt marines on the other side of the island are terroizing Robert<AnimateYield=.45>, on this side bandits are causing the trouble.<AnimateYield=.45>]],["stoptext"] = [[Bye]],["go"] = [[Need help?]],},["QuestDesc"] = [[Take down 8 Shell's Bandits]],}, ["Wane"] = {["lvlReq"] = 215,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Alright dont die form those BURN bazookas<AnimateYield=1>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[wow bye]],["endtext"] = [[false]],["Text"] = [[Mind taking them down for me so i can enter??]],["result"] = function() end,["go"] = [[yes]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 400,["EXP"] = 800,},["Type"] = [[Defeat]],["MobName"] = [[Marine Fort Sniper]],["Ammount"] = 2,},["QuestName"] = [[Help Wane]],["NPC"] = [[Wane]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Ive been trying to <Color=Red>breach<Color=/> my way into the fort but the snipers on top of the tower keep shooting at me...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[defeat some bandits for raph]],}, ["Rogson"] = {["lvlReq"] = 165,["TalkAmmount"] = 4,["masterd"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[I've already taught you how to evade attacks...]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Save"] = [[true]],["Talk3"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Ait you going to have to go throuh my training as well<AnimateYield=.45>, you gotta perfect block 200 times and if you quit your going to have to pay me aigan!]],["result"] = function() end,["go"] = [[Alright!]],},["Talk2"] = {["stop"] = [[no]],["endtext"] = [[false]],["Text"] = [[Its gona cost ya 50k peli my stuff aint free...]],["stoptext"] = [[ok bye]],["go"] = [[yes i will pay]],},["QuestInfo"] = {["Rewards"] = {["KenMastery"] = 1,},["Type"] = [[Perfect Block]],["MobName"] = [[Block]],["Ammount"] = 200,},["nomoney"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[<Color=Red>bro ya dont got enuh money]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["Talk4"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["endtext"] = [[true]],["Text"] = [[Ok lets begin the training now!]],["stoptext"] = [[ok bye]],["go"] = [[Alright!]],},["NPC"] = [[Rogson]],["QuestName"] = [[Road to observation]],["Talk1"] = {["stop"] = [[bye]],["endtext"] = [[false]],["Text"] = [[Want to learn how to evade attacks?]],["stoptext"] = [[Bye]],["go"] = [[Yes i want to learn...]],},["QuestDesc"] = [[kenhaki]],}, ["Noah"] = {["lvlReq"] = 10,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[With this<AnimateYield=.45>, our people can be at ease. Thank you<AnimateYield=.45>, brave one.]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[Aw, thatâ€™s too bad. I had hoped that you were stronger...]],["endtext"] = [[false]],["Text"] = [[Oh traveler<AnimateYield=.45>, please defeat those bandits in our stead<AnimateYield=.45>, as we do not have the strength to do so.]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 75,["EXP"] = 125,},["Type"] = [[Defeat]],["MobName"] = [[Desert Bandit]],["Ammount"] = 7,},["QuestName"] = [[Help Noah]],["NPC"] = [[Noah]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Sigh, times have indeed been tough.<AnimateYield=.45> Our lands are dry<AnimateYield=.45>, water is scarce, and there are Pirates running around stealing the limited amounts of supplies we have.]],["stoptext"] = [[Bye]],["go"] = [[How can i help?]],},["QuestDesc"] = [[Defeat desert bandits for noah]],}, ["Bean Cafe Owner"] = {["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Alright dont be late!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["QuestInfo"] = {["Type"] = [[Deliver]],["block"] = [[true]],["Rewards"] = {["Peli"] = 600,["EXP"] = 800,},["Ammount"] = 1,["MobName"] = [[Bean Coffee Order]],["EndNPC"] = [[Bean Cafe Customer]],},["TalkAmmount"] = 3,["Talk2"] = {["stop"] = [[no im busy]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[Can you help me deliver some orders to my customers that are at the 2 other cities??]],["result"] = function() end,["go"] = [[Yes]],},["NPC"] = [[Bean Cafe Owner]],["QuestName"] = [[Deliver Bean Coffee]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[I have orders that need to be deliverd to my customers all around the <Color=Orange>Desert kingdom<Color=/>, but i dont have enough workers...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[Deliver coffee]],}, ["Miska"] = {["lvlReq"] = 160,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Thank you!!]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[Aw, thatâ€™s too bad. I had hoped that you were stronger...]],["endtext"] = [[false]],["Text"] = [[You seem strong enough to overpower them, can you go clear them out for me so i can get pass?]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 200,["EXP"] = 800,},["Type"] = [[Defeat]],["MobName"] = [[Gravito's Undermen]],["Ammount"] = 4,},["QuestName"] = [[Help Miska]],["NPC"] = [[Miska]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[Hey i've been trying to get past Gravito's Undermen but i havent made any progress...]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[kill]],}, ["Gozen"] = {["lvlReq"] = 30,["TalkAmmount"] = 3,["Talk3"] = {["stop"] = [[No]],["endtext"] = [[true]],["Text"] = [[Thanks for helping<AnimateYield=.45>, also i suggest you bring your <Color=Green>friends<Color=/> along<AnimateYield=.45>, Logan summons his <Color=Red>chore boys<Color=/> all the time.<AnimateYield=1>]],["stoptext"] = [[...........................]],["go"] = [[Yes]],},["Talk2"] = {["stop"] = [[Sorry, Iâ€™m not ready.]],["stoptext"] = [[ok bye]],["endtext"] = [[false]],["Text"] = [[If you can defeat and serve justice to Logan<AnimateYield=.45>, i'll give you with a hefty reward.<AnimateYield=.45>]],["result"] = function() end,["go"] = [[Alright!]],},["QuestInfo"] = {["Rewards"] = {["Peli"] = 500,["EXP"] = 800,},["Type"] = [[Defeat]],["MobName"] = [[Axe Hand Logan]],["Ammount"] = 1,},["QuestName"] = [[Serve Justice]],["NPC"] = [[Gozen]],["Talk1"] = {["stop"] = [[Bye]],["endtext"] = [[false]],["Text"] = [[This town used to be peacefull until <Color=Red>Logan<Color=/> started abusing his powers...<AnimateYield=.45>]],["stoptext"] = [[Bye]],["go"] = [[...]],},["QuestDesc"] = [[Defeat Axe Hand Morgan]],},}
+
+
+local GJK = (function()
+	local MAX_TRIES = 20
+	local ZERO3 = Vector3.new(0, 0, 0)
+	
+	-- Class
+	
+	local GJK = {}
+	GJK.__index = GJK
+	
+	-- Private Functions
+	
+	local function tripleProduct(a, b, c)
+		return b * c:Dot(a) - a * c:Dot(b)
+	end
+	
+	local function containsOrigin(self, simplex, direction)
+		local a = simplex[#simplex]
+		local ao = -a
+	
+		if (#simplex == 4) then
+			local b, c, d = simplex[3], simplex[2], simplex[1]
+			local ab, ac, ad = b - a, c - a, d - a
+			local abc, acd, adb = ab:Cross(ac), ac:Cross(ad), ad:Cross(ab)
+			
+			abc = abc:Dot(ad) > 0 and -abc or abc
+			acd = acd:Dot(ab) > 0 and -acd or acd
+			adb = adb:Dot(ac) > 0 and -adb or adb
+			
+			if (abc:Dot(ao) > 0) then
+				table.remove(simplex, 1)
+				direction = abc
+			elseif (acd:Dot(ao) > 0) then
+				table.remove(simplex, 2)
+				direction = acd
+			elseif (adb:Dot(ao) > 0) then
+				table.remove(simplex, 3)
+				direction = adb
+			else
+				return true
+			end
+		elseif (#simplex == 3) then
+			local b, c = simplex[2], simplex[1]
+			local ab, ac = b - a, c - a
+			
+			local abc = ab:Cross(ac)
+			local abPerp = tripleProduct(ac, ab, ab).Unit
+			local acPerp = tripleProduct(ab, ac, ac).Unit
+			
+			if (abPerp:Dot(ao) > 0) then
+				table.remove(simplex, 1)
+				direction = abPerp
+			elseif (acPerp:Dot(ao) > 0) then
+				table.remove(simplex, 2)
+				direction = acPerp
+			else
+				local isV3 = ((a - a) == ZERO3)
+				if (not isV3) then
+					return true
+				else
+					direction = abc:Dot(ao) > 0 and abc or -abc
+				end
+			end
+		else
+			local b = simplex[1]
+			local ab = b - a
+			local bcPerp = tripleProduct(ab, ao, ab).Unit
+			direction = bcPerp
+		end
+		
+		return false, direction
+	end
+	
+	-- Public Constructors
+	
+	function GJK.new(SetA, SetB, CentroidA, CentroidB, SupportA, SupportB)
+		local self = setmetatable({}, GJK)
+		
+		self.SetA = SetA
+		self.SetB = SetB
+		self.CentroidA = CentroidA
+		self.CentroidB = CentroidB
+		self.SupportA = SupportA
+		self.SupportB = SupportB
+	
+		return self
+	end
+	
+	-- Public Methods
+	
+	function GJK:IsColliding()
+		local direction = (self.CentroidA - self.CentroidB).Unit
+		local simplex = {self.SupportA(self.SetA, direction) - self.SupportB(self.SetB, -direction)}
+		
+		direction = -direction
+		
+		for i = 1, MAX_TRIES do
+			table.insert(simplex, self.SupportA(self.SetA, direction) - self.SupportB(self.SetB, -direction))
+			
+			if (simplex[#simplex]:Dot(direction) <= 0) then
+				return false
+			else
+				local passed, newDirection = containsOrigin(self, simplex, direction)
+				
+				if (passed) then
+					return true
+				end
+				
+				direction = newDirection
+			end
+		end
+		
+		return false
+	end
+	
+	--
+	
+	return GJK
+end)()
+local Supports = (function()
+	local ZERO = Vector3.new(0, 0, 0)
+	local RIGHT = Vector3.new(1, 0, 0)
+
+	--
+	
+	local function rayPlane(p, v, s, n)
+		local r = p - s;
+		local t = -r:Dot(n) / v:Dot(n)
+		return p + t * v, t
+	end;
+	
+	--
+	
+	local Supports = {}
+	
+	function Supports.PointCloud(set, direction)
+		local max, maxDot = set[1], set[1]:Dot(direction)
+		for i = 2, #set do
+			local dot = set[i]:Dot(direction)
+			if (dot > maxDot) then
+				max = set[i]
+				maxDot = dot
+			end
+		end
+		return max
+	end
+	
+	function Supports.Cylinder(set, direction)
+		local cf, size2 = unpack(set)
+		direction = cf:VectorToObjectSpace(direction)
+		local radius = math.min(size2.y, size2.z)
+		local dotT, cPoint = direction:Dot(RIGHT), Vector3.new(size2.x, 0, 0)
+		local h, t, final
+		
+		if (dotT == 0) then
+			final = direction.Unit * radius
+		else
+			cPoint = dotT > 0 and cPoint or -cPoint
+			h, t = rayPlane(ZERO, direction, cPoint, RIGHT)
+			final = cPoint + (h - cPoint).Unit * radius
+		end
+		
+		return cf:PointToWorldSpace(final)
+	end
+	
+	function Supports.Ellipsoid(set, direction)
+		local cf, size2 = unpack(set)
+		return cf:PointToWorldSpace(size2 * (size2 * cf:VectorToObjectSpace(direction)).Unit)
+	end
+	
+	return Supports
+end)()
+local Vertices = (function()
+	-- CONSTANTS
+
+	local PI2 = math.pi*2
+	local PHI = (1 + math.sqrt(5)) / 2
+	
+	local RIGHT 	= Vector3.new(1, 0, 0)
+	local UP 		= Vector3.new(0, 1, 0)
+	local BACK 		= Vector3.new(0, 0, 1)
+	local LEFT 		= Vector3.new(-1, 0, 0)
+	local DOWN 		= Vector3.new(0, -1, 0)
+	local FORWARD 	= Vector3.new(0, 0, -1)
+	
+	local CORNERS = {
+		Vector3.new(1, 1, 1);
+		Vector3.new(-1, 1, 1);
+		Vector3.new(-1, 1, -1);
+		Vector3.new(1, 1, -1);
+		Vector3.new(1, -1, 1);
+		Vector3.new(-1, -1, 1);
+		Vector3.new(-1, -1, -1);
+		Vector3.new(1, -1, -1);
+	}
+	
+	-- VERTICE INDEX ARRAYS
+	
+	local BLOCK = {1, 2, 3, 4, 5, 6, 7, 8}
+	local WEDGE = {1, 2, 5, 6, 7, 8}
+	local CORNERWEDGE = {4, 5, 6, 7, 8}
+	
+	-- VERTICE FUNCTIONS
+	
+	local function fromIndexArray(array)
+		local output = {}
+		for i = 1, #array do
+			output[i] = CORNERS[array[i]]
+		end
+		return output
+	end
+	
+	local function cylinder(n)
+		local output = {}
+		local arc = PI2 / n
+		for i = 1, n do
+			local vi = CFrame.fromAxisAngle(RIGHT, i*arc) * UP
+			output[i] = RIGHT + vi
+			output[n + i] = LEFT + vi
+		end
+		return output
+	end
+	
+	local function icoSphere(n)
+		local verts = {
+			Vector3.new(-1,  PHI, 0),
+			Vector3.new(1,  PHI, 0),
+			Vector3.new(-1, -PHI, 0),
+			Vector3.new(1, -PHI, 0),
+			
+			Vector3.new(0, -1,  PHI),
+			Vector3.new(0,  1,  PHI),
+			Vector3.new(0, -1, -PHI),
+			Vector3.new(0,  1, -PHI),
+			
+			Vector3.new(PHI, 0, -1),
+			Vector3.new(PHI, 0,  1),
+			Vector3.new(-PHI, 0, -1),
+			Vector3.new(-PHI, 0,  1)
+		}
+		
+		local indices = {
+			1, 12, 6,
+			1, 6, 2,
+			1, 2, 8,
+			1, 8, 11,
+			1, 11, 12,
+			
+			2, 6, 10,
+			6, 12, 5,
+			12, 11, 3,
+			11, 8, 7,
+			8, 2, 9,
+			
+			4, 10, 5,
+			4, 5, 3,
+			4, 3, 7,
+			4, 7, 9,
+			4, 9, 10,
+			
+			5, 10, 6,
+			3, 5, 12,
+			7, 3, 11,
+			9, 7, 8,
+			10, 9, 2
+		}
+		
+		local splits = {}
+		
+		local function split(i, j)
+			local key = i < j and (i .. "," .. j) or (j .. "," .. i)
+			
+			if (not splits[key]) then
+				verts[#verts+1] = (verts[i] + verts[j]) / 2
+				splits[key] = #verts
+			end
+			
+			return splits[key]
+		end
+		
+		for _ = 1, n do
+			for  i = #indices, 1, -3 do
+				local v1, v2, v3 = indices[i - 2], indices[i - 1], indices[i]
+				local a = split(v1, v2)
+				local b = split(v2, v3)
+				local c = split(v3, v1)
+				
+				indices[#indices+1] = v1
+				indices[#indices+1] = a
+				indices[#indices+1] = c
+				
+				indices[#indices+1] = v2
+				indices[#indices+1] = b
+				indices[#indices+1] = a
+				
+				indices[#indices+1] = v3
+				indices[#indices+1] = c
+				indices[#indices+1] = b
+				
+				indices[#indices+1] = a
+				indices[#indices+1] = b
+				indices[#indices+1] = c
+				
+				table.remove(indices, i)
+				table.remove(indices, i - 1)
+				table.remove(indices, i - 2)
+			end
+		end
+		
+		-- normalize
+		for i = 1, #verts do
+			verts[i] = verts[i].Unit
+		end
+		
+		return verts
+	end
+	
+	-- Useful functions
+	
+	local function vertShape(cf, size2, array)
+		local output = {}
+		for i = 1, #array do
+			output[i] = cf:PointToWorldSpace(array[i] * size2)
+		end
+		return output
+	end
+	
+	local function getCentroidFromSet(set)
+		local sum = set[1]
+		for i = 2, #set do
+			sum = sum + set[2]
+		end
+		return sum / #set
+	end
+	
+	local function classify(part)
+		if (part.ClassName == "Part") then
+			if (part.Shape == Enum.PartType.Block) then
+				return "Block"
+			elseif (part.Shape == Enum.PartType.Cylinder) then
+				return "Cylinder"
+			elseif (part.Shape == Enum.PartType.Ball) then
+				return "Ball"
+			end;
+		elseif (part.ClassName == "WedgePart") then
+			return "Wedge"
+		elseif (part.ClassName == "CornerWedgePart") then
+			return "CornerWedge"
+		elseif (part:IsA("BasePart")) then -- mesh, CSG, truss, etc... just use block
+			return "Block"
+		end
+	end
+	
+	-- 
+	
+	local BLOCK_ARRAY = fromIndexArray(BLOCK)
+	local WEDGE_ARRAY = fromIndexArray(WEDGE)
+	local CORNERWEDGE_ARRAY = fromIndexArray(CORNERWEDGE)
+	local CYLINDER_ARRAY = cylinder(20)
+	local SPHERE_ARRAY = icoSphere(2)
+	
+	return {
+		Block = function(cf, size2) return vertShape(cf, size2, BLOCK_ARRAY) end;
+		Wedge = function(cf, size2) return vertShape(cf, size2, WEDGE_ARRAY) end;
+		CornerWedge = function(cf, size2) return vertShape(cf, size2, CORNERWEDGE_ARRAY) end;
+		Cylinder = function(cf, size2) return vertShape(cf, size2, CYLINDER_ARRAY) end;
+		Ball = function(cf, size2) return vertShape(cf, size2, SPHERE_ARRAY) end;
+		
+		GetCentroid = getCentroidFromSet;
+		Classify = classify;
+	}
+end)()
+
+
+local RotatedRegion3 = {}
+RotatedRegion3.__index = RotatedRegion3
+
+
+local function getCorners(cf, s2)
+	return {
+		cf:PointToWorldSpace(Vector3.new(-s2.x, s2.y, s2.z));
+		cf:PointToWorldSpace(Vector3.new(-s2.x, -s2.y, s2.z));
+		cf:PointToWorldSpace(Vector3.new(-s2.x, -s2.y, -s2.z));
+		cf:PointToWorldSpace(Vector3.new(s2.x, -s2.y, -s2.z));
+		cf:PointToWorldSpace(Vector3.new(s2.x, s2.y, -s2.z));
+		cf:PointToWorldSpace(Vector3.new(s2.x, s2.y, s2.z));
+		cf:PointToWorldSpace(Vector3.new(s2.x, -s2.y, s2.z));
+		cf:PointToWorldSpace(Vector3.new(-s2.x, s2.y, -s2.z));
+	}
+end
+
+local function worldBoundingBox(set)
+	local x, y, z = {}, {}, {}
+	for i = 1, #set do x[i], y[i], z[i] = set[i].x, set[i].y, set[i].z end
+	local min = Vector3.new(math.min(unpack(x)), math.min(unpack(y)), math.min(unpack(z)))
+	local max = Vector3.new(math.max(unpack(x)), math.max(unpack(y)), math.max(unpack(z)))
+	return min, max
+end
+
+
+function RotatedRegion3.new(cframe, size)
+	local self = setmetatable({}, RotatedRegion3)
+	
+	self.CFrame = cframe
+	self.Size = size
+	self.Shape = "Block"
+	
+	self.Set = Vertices.Block(cframe, size/2)
+	self.Support = Supports.PointCloud
+	self.Centroid = cframe.p
+	
+	self.AlignedRegion3 = Region3.new(worldBoundingBox(self.Set))
+
+	return self
+end
+RotatedRegion3.Block = RotatedRegion3.new
+function RotatedRegion3.Wedge(cframe, size)
+	local self = setmetatable({}, RotatedRegion3)
+
+	self.CFrame = cframe
+	self.Size = size
+	self.Shape = "Wedge"
+	
+	self.Set = Vertices.Wedge(cframe, size/2)
+	self.Support = Supports.PointCloud
+	self.Centroid = Vertices.GetCentroid(self.Set)
+	
+	self.AlignedRegion3 = Region3.new(worldBoundingBox(self.Set))
+
+	return self
+end
+
+function RotatedRegion3.CornerWedge(cframe, size)
+	local self = setmetatable({}, RotatedRegion3)
+
+	self.CFrame = cframe
+	self.Size = size
+	self.Shape = "CornerWedge"
+	
+	self.Set = Vertices.CornerWedge(cframe, size/2)
+	self.Support = Supports.PointCloud
+	self.Centroid = Vertices.GetCentroid(self.Set)
+	
+	self.AlignedRegion3 = Region3.new(worldBoundingBox(self.Set))
+
+	return self
+end
+
+function RotatedRegion3.Cylinder(cframe, size)
+	local self = setmetatable({}, RotatedRegion3)
+
+	self.CFrame = cframe
+	self.Size = size
+	self.Shape = "Cylinder"
+	
+	self.Set = {cframe, size/2}
+	self.Support = Supports.Cylinder
+	self.Centroid = cframe.p
+	
+	self.AlignedRegion3 = Region3.new(worldBoundingBox(getCorners(unpack(self.Set))))
+
+	return self
+end
+
+function RotatedRegion3.Ball(cframe, size)
+	local self = setmetatable({}, RotatedRegion3)
+
+	self.CFrame = cframe
+	self.Size = size
+	self.Shape = "Ball"
+	
+	self.Set = {cframe, size/2}
+	self.Support = Supports.Ellipsoid
+	self.Centroid = cframe.p
+	
+	self.AlignedRegion3 = Region3.new(worldBoundingBox(getCorners(unpack(self.Set))))
+
+	return self
+end
+
+function RotatedRegion3.FromPart(part)
+	return RotatedRegion3[Vertices.Classify(part)](part.CFrame, part.Size)
+end
+function RotatedRegion3:CastPoint(point)
+	local gjk = GJK.new(self.Set, {point}, self.Centroid, point, self.Support, Supports.PointCloud)
+	return gjk:IsColliding()
+end
+
+function RotatedRegion3:CastPart(part)
+	local r3 = RotatedRegion3.FromPart(part)
+	local gjk = GJK.new(self.Set, r3.Set, self.Centroid, r3.Centroid, self.Support, r3.Support)
+	return gjk:IsColliding()
+end
+
+function RotatedRegion3:FindPartsInRegion3(ignore, maxParts)
+	local found = {}
+	local parts = game.Workspace:FindPartsInRegion3(self.AlignedRegion3, ignore, maxParts)
+	for i = 1, #parts do
+		if (self:CastPart(parts[i])) then
+			table.insert(found, parts[i])
+		end
+	end
+	return found
+end
+
+function RotatedRegion3:FindPartsInRegion3WithIgnoreList(ignore, maxParts)
+	ignore = ignore or {}
+	local found = {}
+	local parts = game.Workspace:FindPartsInRegion3WithIgnoreList(self.AlignedRegion3, ignore, maxParts)
+	for i = 1, #parts do
+		if (self:CastPart(parts[i])) then
+			table.insert(found, parts[i])
+		end
+	end
+	return found
+end
+
+function RotatedRegion3:FindPartsInRegion3WithWhiteList(whiteList, maxParts)
+	whiteList = whiteList or {}
+	local found = {}
+	local parts = game.Workspace:FindPartsInRegion3WithWhiteList(self.AlignedRegion3, whiteList, maxParts)
+	for i = 1, #parts do
+		if (self:CastPart(parts[i])) then
+			table.insert(found, parts[i])
+		end
+	end
+	return found
+end
+
+function RotatedRegion3:Cast(ignore, maxParts)
+	ignore = type(ignore) == "table" and ignore or {ignore}
+	return self:FindPartsInRegion3WithIgnoreList(ignore, maxParts)
+end
+
